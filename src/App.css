@@ -36,3 +36,62 @@
     transform: rotate(360deg);
   }
 }
+
+.movie-item {
+  max-width: 300px;
+  margin: auto;
+}
+
+.movie-item img {
+  height: 350px;
+  object-fit: cover;
+}
+
+.search-container {
+  padding: 20px;
+}
+
+.search-container form {
+  max-width: 600px;
+  margin: auto;
+}
+
+
+.movie-card {
+  width: 100%; /* Memastikan card mengisi ruang */
+  max-width: 18rem; /* Menetapkan lebar maksimal untuk setiap card */
+  height: 450px; /* Menetapkan tinggi tetap untuk card */
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-img {
+  width: 100%;
+  height: 250px; /* Menetapkan tinggi gambar agar semua gambar memiliki tinggi yang sama */
+  object-fit: cover; /* Menyesuaikan gambar agar tidak terdistorsi */
+}
+
+.card-body {
+  flex: 1; /* Agar card body mengisi sisa ruang setelah gambar */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+/* App.css */
+.navbar {
+  margin-bottom: 20px;
+}
+
+.form-inline input {
+  width: 300px;
+  margin-left: auto;
+}
