@@ -22,13 +22,13 @@ const Search = ({ onSearch }) => {
       <form onSubmit={handleSearch} className="d-flex justify-content-center">
         <input
           type="text"
-          placeholder="Search for movies..."
+          placeholder="Cari film..."
           className="form-control w-50"
           value={query}
           onChange={handleInputChange}
         />
         <button type="submit" className="btn btn-primary ms-2">
-          Search
+          Cari
         </button>
       </form>
       {query && (
